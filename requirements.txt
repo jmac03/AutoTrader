@@ -1,0 +1,32 @@
+# ============================================================
+# AutoTrader - Alpaca Trader Dependencies
+# ============================================================
+# TODO: Research and pin specific version numbers for production use.
+# TODO: Add a virtual environment setup guide to the README.
+# Usage: pip install -r requirements.txt
+
+# Alpaca Trade API - provides REST and streaming WebSocket access
+# to the Alpaca brokerage platform (stocks & crypto).
+# Docs: https://alpaca.markets/docs/api-documentation/
+# Repo: https://github.com/alpacahq/alpaca-trade-api-python
+alpaca-trade-api
+
+# TODO: Evaluate alpaca-py (the newer official Alpaca SDK) as a replacement:
+#   pip install alpaca-py
+#   Docs: https://alpaca.markets/sdks/python/
+
+# python-dotenv - loads environment variables from a .env file so that
+# API keys and secrets are never hard-coded in source files.
+python-dotenv
+
+# TODO: Add a data/analysis library such as pandas or numpy if technical
+#       indicators or backtesting are implemented in future sprints.
+# pandas
+# numpy
+# ta-lib  (technical analysis indicators)
+
+# TODO: Add a logging or alerting library (e.g., loguru, sentry-sdk)
+#       once the project moves beyond the prototype stage.
+
+# TODO: Add a scheduler library (e.g., APScheduler) if the bot needs to
+#       run strategies on a timed interval rather than continuously.

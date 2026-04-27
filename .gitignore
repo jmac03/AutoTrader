@@ -1,0 +1,39 @@
+# ============================================================
+# .gitignore
+# ============================================================
+
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variable files (contain secrets – never commit)
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artefacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# TODO: Add any data files or log files that the bot generates at runtime
+#       so they are not accidentally committed.
